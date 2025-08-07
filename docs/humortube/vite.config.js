@@ -6,4 +6,4 @@ export default defineConfig({
   plugins: [react()],
 })
 
-base: '/html5/humortube/'
+base: '/html5/humortube/', 
