@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나에게 필요한 선물</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            margin: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .wishlist-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center; 
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gift-item {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 280px;
+            transition: transform 0.3s ease;
+        }
+        .gift-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .gift-item img {
+            max-width: 100%; 
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .gift-item h3 {
+            color: #4CAF50;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        .gift-item p {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>나에게 필요한 선물</h1>
+    <div class="wishlist-container">
+        <div class="gift-item">
+            <img src="images\gift1_phone&smartwatch.webp" alt="gift1">
+            <h3>핸드폰&스마트워치</h3>
+            <p>부가설명</p>
+        </div>
+
+        <div class="gift-item">
+            <img src="images\gift2_books.webp" alt="gift2">
+            <h3>다양한 책</h3>
+            <p>부가설명2</p>
+        </div>
+
+        <div class="gift-item">
+            <img src="images\gift3_cats.webp" alt="gift3">
+            <h3>고양이</h3>
+            <p>부가설명3</p>
+        </div>
+
+        <div class="gift-item">
+            <img src="images\gift4_whiskeyglass.webp" alt="gift4">
+            <h3>위스키 잔</h3>
+            <p>부가설명4</p>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
